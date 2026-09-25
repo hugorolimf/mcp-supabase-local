@@ -1,0 +1,17 @@
+{
+  "name": "supabase-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server genérico para executar SQL no Supabase via PostgREST",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@supabase/supabase-js": "^2.76.1",
+    "dotenv": "^16.4.0",
+    "ssh2": "^1.17.0"
+  }
+}
